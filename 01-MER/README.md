@@ -9,7 +9,7 @@ Esta carpeta contiene el **Modelo Entidad-Relación (MER)** correspondiente a la
 
 - [x] 1. Modelo Conceptual
 - [x] 2. Entidades y tipos
-- [ ] 3. Modelo y Diagrama Entidad-Relación
+- [x] 3. Modelo y Diagrama Entidad-Relación
 - [ ] 4. Relaciones y tipos
 - [ ] 5. Cardinalidad
 - [ ] 6. Atributos y tipos
