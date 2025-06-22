@@ -10,7 +10,7 @@ Esta carpeta contiene el **Modelo Entidad-Relación (MER)** correspondiente a la
 - [x] 1. Modelo Conceptual
 - [x] 2. Entidades y tipos
 - [x] 3. Modelo y Diagrama Entidad-Relación
-- [ ] 4. Relaciones y tipos
+- [x] 4. Relaciones y tipos
 - [ ] 5. Cardinalidad
 - [ ] 6. Atributos y tipos
 
@@ -58,7 +58,7 @@ Se representan mediante un rectángulo.
   - `Libro`: depende de la `Editorial`
   - `Pedido de compra`: depende de un `Cliente` y un `Libro`
 
-### 2.1.3. 🟩 Entidad de Especialización/Generalización
+#### 2.1.3. 🟩 Entidad de Especialización/Generalización
 
 - Se da cuando una entidad general se divide en subtipos más específicos que comparten atributos comunes, pero también tienen atributos particulares.
 - **Ejemplo en este modelo:**
@@ -80,5 +80,27 @@ El diagrama representa las entidades principales del sistema:
 - **Libro**
 - **Inventario**
 
-![Entidades](entidades.png)
+![Entidades](img/3.entidades.png)
+
+---
+---
+
+## 4. Relaciones 🔗 
+
+Las entidades del sistema se relacionan entre sí de la siguiente manera:
+
+- Un **Cliente** puede realizar uno o varios **Pedidos**.
+- Un **Pedido** puede contener uno o varios **Libros**.
+- Un **Libro** puede existir o no en el **Inventario**
+- Cada **Libro** pertenece a una única **Editorial**.
+
+![Relaciones](img/4.relaciones.png)
+
+
+### 4.1. Tipos de Relaciones 🔗
+
+- **1 a 1 (1:1):** Poco común, no usada en este modelo.
+- **1 a muchos (1:N):** Un cliente puede hacer muchos pedidos.
+- **Muchos a muchos (N:M):** Un pedido puede tener varios libros y un libro puede aparecer en varios pedidos.
+
 ---
