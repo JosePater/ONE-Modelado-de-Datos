@@ -38,4 +38,36 @@ Se representan mediante un rectángulo.
 
 > Ejemplo: Cliente, Libros, Editorial, Pedido, Inventario, etc.
 
+
+
+### 🧩 2.1. Tipos de Entidades
+
+#### 2.1.1. 🟨 Entidad Fuerte
+
+- **Definición:** Es una entidad que tiene existencia propia, que no depente de otra, y tiene una clave primaria que la identifica de forma única.
+- **Ejemplo:**
+  - `Cliente`
+  - `Editorial`
+  
+  
+
+#### 2.1.2. 🟦 Entidad Débil
+
+- **Definición:** Es una entidad que **no posee clave primaria propia** y depende de otra entidad para poder identificarse. Se apoya en una clave externa.
+- **Ejemplo:**
+  - `Libro`: depende de la `Editorial`
+  - `Pedido de compra`: depende de un `Cliente` y un `Libro`
+
+### 2.1.3. 🟩 Entidad de Especialización/Generalización
+
+- Se da cuando una entidad general se divide en subtipos más específicos que comparten atributos comunes, pero también tienen atributos particulares.
+- **Ejemplo en este modelo:**
+  - Entidad general: `Cliente`
+  - Subtipos:
+    - `PersonaNatural` (atributos: `DNI`, `RUT`)
+    - `PersonaJuridica` (atributos: `NIT`, `RUES`)
+
+---
+
+
 ---
