@@ -68,6 +68,17 @@ Se representan mediante un rectángulo.
     - `PersonaJuridica` (atributos: `NIT`, `RUES`)
 
 ---
+---
+
+## 3. Diagrama Entidad-Relación (MER) 📊
+
+El diagrama representa las entidades principales del sistema:
+
+- **Cliente** 
+- **Editorial**
+- **Pedido**
+- **Libro**
+- **Inventario**
 
 
 ---
