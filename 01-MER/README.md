@@ -80,5 +80,5 @@ El diagrama representa las entidades principales del sistema:
 - **Libro**
 - **Inventario**
 
-![Entidades](image.png)
+![Entidades](entidades.png)
 ---
