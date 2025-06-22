@@ -8,12 +8,13 @@ Esta carpeta contiene el **Modelo Entidad-Relación (MER)** correspondiente a la
 ## 📌 Estado del avance
 
 - [x] 1. Modelo Conceptual
-- [ ] 2. Entidades y tipos
+- [x] 2. Entidades y tipos
 - [ ] 3. Modelo y Diagrama Entidad-Relación
 - [ ] 4. Relaciones y tipos
 - [ ] 5. Cardinalidad
 - [ ] 6. Atributos y tipos
 
+---
 ---
 
 ## 1. ¿Qué es el Modelo Conceptual?
@@ -26,5 +27,15 @@ El **modelo conceptual** es la primera etapa del diseño de una base de datos, d
 
 
 ---
+---
 
 
+## 2. ¿Qué es una Entidad?
+
+Una **entidad** es un elemento del mundo real o del negocio que tiene existencia propia dentro del sistema y del cual queremos guardar información estructurada.
+
+Se representan mediante un rectángulo.
+
+> Ejemplo: Cliente, Libros, Editorial, Pedido, Inventario, etc.
+
+---
