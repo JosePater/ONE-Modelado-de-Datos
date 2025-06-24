@@ -12,7 +12,7 @@ Esta carpeta contiene el **Modelo Entidad-Relación (MER)** correspondiente a la
 - [x] 3. Modelo y Diagrama Entidad-Relación
 - [x] 4. Relaciones y tipos
 - [x] 5. Cardinalidad
-- [ ] 6. Atributos y tipos
+- [x] 6. Atributos y tipos
 
 ---
 ---
@@ -126,5 +126,30 @@ Las entidades del sistema se relacionan mediante un rombo, se relacionan así:
 
 ![Cardinalidad](img/5.cardinalidad.png)
 
+---
+---
+
+## 6. Atributos y sus tipos 🧾
+
+Los **atributos** son las características o propiedades que describen a una entidad. Cada entidad del sistema contiene uno o más atributos que permiten identificarla y registrar información relevante.
+
+### 6.1. Tipos de Atributos 🔹
+
+
+### 6.1.1. Atributos Atómicos
+- Los atributos atómicos son aquellos que tienen un único valor. 
+- **Ejemplo**: El atributo "nombre" es un atributo atómico, ya que solo almacena un único valor.
+
+### 6.1.2. Atributos de Multivalor
+- Los atributos de multivalor son aquellos que pueden tener más de un valor lógico.
+- **Ejemplo**: El atributo "teléfono" podría ser considerado un atributo de multivalor, ya que se pueden tener múltiples números de teléfono, como "teléfono 1" y "teléfono 2".
+
+### 6.1.3. Atributos Derivados
+- Los atributos derivados son aquellos que se derivan de otros atributos.
+- **Ejemplo**: El atributo "dirección" puede tener atributos derivados como "calle", "barrio", "ciudad" y "estado", que son componentes de la dirección.
+
+### 6.1.4. Atributos Clave
+- Los atributos clave son aquellos que identifican de manera única a una entidad.
+- **Ejemplo**: Los atributos "RUT" y "DNI" son ejemplos de atributos clave para una persona natural, mientras que "NIT" y "RUES" son atributos clave para una persona jurídica. Estos atributos son importantes y se diferencian porque suelen estar subrayados.
 
 ---
