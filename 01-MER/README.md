@@ -152,4 +152,9 @@ Los **atributos** son las características o propiedades que describen a una ent
 - Los atributos clave son aquellos que identifican de manera única a una entidad.
 - **Ejemplo**: Los atributos "RUT" y "DNI" son ejemplos de atributos clave para una persona natural, mientras que "NIT" y "RUES" son atributos clave para una persona jurídica. Estos atributos son importantes y se diferencian porque suelen estar subrayados.
 
+
+### Atributos en el Diagrama MER
+
+![Atributos](img/6.atributos.png)
+
 ---
