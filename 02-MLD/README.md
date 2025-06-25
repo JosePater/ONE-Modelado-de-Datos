@@ -7,7 +7,7 @@ Esta carpeta contiene el **Modelo Lógico de Datos (MLD)** derivado del modelo e
 ## 📌 Estado del avance
 
 - [x] 1. Modelo Lógico
-
+- [x] 2. Entidades Fuertes
 
 ---
 ---
@@ -24,5 +24,13 @@ Se encarga de:
 - Preparar el modelo para la implementación física
 
 ---
+---
 
+## 2. Entidades Fuertes
+
+### Representación de Entidades Fuertes
+
+![Entidades Fuertes](./img/entidades-fuertes.png)
+
+---
 
