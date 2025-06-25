@@ -80,3 +80,27 @@ Se encarga de:
 ![Atributos de Especialización](./img/atributo-especializacion.png)
 
 ---
+---
+
+## 6. Cardinalidad
+
+**Definición:** Define la relación numérica entre las instancias de las entidades.
+
+- Componentes:
+  - Cardinalidad mínima: El número mínimo de instancias que deben estar relacionadas.
+  - Cardinalidad máxima: El número máximo de instancias que pueden estar relacionadas.
+
+
+- Ejemplos en el modelo:
+  - Cliente a Pedido: 1 a N (un cliente puede tener muchos pedidos).
+  - Persona Jurídica a Cliente: 0 a 1 (una persona jurídica puede o no ser un cliente).
+  - Pedido a Items: 1 a N (un pedido debe tener al menos un item).
+  - Libro a Inventario: 0 a N (un libro puede no estar en inventario o estar varias veces).
+  - Editorial a Libro: 1 a N (una editorial puede tener muchos libros).
+
+
+### Representación de Cardinalidad
+
+![Cardinalidad](./img/cardinalidad.png)
+
+---
