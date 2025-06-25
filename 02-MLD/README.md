@@ -9,6 +9,7 @@ Esta carpeta contiene el **Modelo Lógico de Datos (MLD)** derivado del modelo e
 - [x] 1. Modelo Lógico
 - [x] 2. Entidades Fuertes
 - [x] 3. Entidades Débiles
+- [x] 4. Entidad Asociativa
 
 ---
 ---
@@ -41,5 +42,21 @@ Se encarga de:
 ### Representación de Entidades Débiles
 
 ![Entidades Débiles](./img/entidades-debiles.png)
+
+---
+---
+
+## 4. Entidad Asociativa
+
+**Definición:** Una tabla que se crea para representar **una relación de muchos a muchos** entre dos entidades.
+
+- Ejemplo: La tabla "ITEMS" que conecta "PEDIDO" y "LIBRO".
+- Atributos clave:
+  - Claves foráneas: "cod_pedido" (de "Pedido") y "código del libro" (de "Libro").
+  - Atributos propios: cantidad, valor.
+
+### Representación de Entidad Asociativa
+
+![Entidad Asociativa](./img/entidad-asociativa.png)
 
 ---
