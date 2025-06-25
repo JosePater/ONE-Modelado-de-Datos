@@ -10,6 +10,8 @@ Esta carpeta contiene el **Modelo Lógico de Datos (MLD)** derivado del modelo e
 - [x] 2. Entidades Fuertes
 - [x] 3. Entidades Débiles
 - [x] 4. Entidad Asociativa
+- [x] 5. Atributos de Especialización
+- [x] 6. Cardinalidad
 
 ---
 ---
@@ -58,5 +60,23 @@ Se encarga de:
 ### Representación de Entidad Asociativa
 
 ![Entidad Asociativa](./img/entidad-asociativa.png)
+
+---
+---
+
+## 5. Atributos de Especialización
+
+**Definición:** Tablas que se crean para detallar diferentes tipos de una entidad más general.
+- Ejemplo: "Persona Natural (PN)" y "Persona Jurídica (PJ)" que especializan la entidad "Cliente".
+
+- Clave foránea común:
+  - "cod_cliente" (código del cliente) que relaciona ambas tablas con "Cliente".
+- Atributos específicos:
+  - Persona Natural (PN): DNI, RUT.
+  - Persona Jurídica (PJ): NIT, RUES.
+
+### Representación de Atributos de Especialización
+
+![Atributos de Especialización](./img/atributo-especializacion.png)
 
 ---
