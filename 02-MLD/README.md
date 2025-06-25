@@ -8,6 +8,7 @@ Esta carpeta contiene el **Modelo Lógico de Datos (MLD)** derivado del modelo e
 
 - [x] 1. Modelo Lógico
 - [x] 2. Entidades Fuertes
+- [x] 3. Entidades Débiles
 
 ---
 ---
@@ -33,4 +34,12 @@ Se encarga de:
 ![Entidades Fuertes](./img/entidades-fuertes.png)
 
 ---
+---
 
+## 3. Entidades Débiles
+
+### Representación de Entidades Débiles
+
+![Entidades Débiles](./img/entidades-debiles.png)
+
+---
